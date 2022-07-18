@@ -1,0 +1,82 @@
+body {
+    background-color: seagreen;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    height: 12rem;
+    width: 30rem;
+}
+
+/*.container{*/
+/*    position: absolute;*/
+/*    margin: 20% 30% auto;*/
+/*}*/
+
+.white-keys {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.black-keys {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    z-index: 1;
+}
+
+.black-keys kbd {
+    background-color: black;
+    color: white;
+    display: inline-block;
+    border-radius: 10px;
+    height: 17vh;
+    width: 2rem;
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 7rem;
+    border: 0.3rem solid #272643;
+    margin-left: -0.3rem;
+}
+
+.white-keys kbd {
+    background-color: white;
+    display: inline-block;
+    border: 0.3rem solid #272643;
+    height: 25vh;
+    width: 3rem;
+    margin-left: -0.3rem;
+    text-align: center;
+    border-radius: 10px;
+    line-height: 20rem;
+    font-size: 1.5rem;
+}
+
+#key-w {
+    margin-left: 1.5rem;
+}
+#key-e {
+    margin-left: 0.5rem;
+}
+#key-t {
+    margin-left: 4.5rem;
+}
+#key-y {
+    margin-left: 0.5rem;
+}
+#key-u {
+    margin-left: 0.5rem;
+}
+
+/*Set left: 0; right: 0; to align position: absolute; block*/
+
